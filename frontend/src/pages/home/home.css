@@ -1,0 +1,66 @@
+/* Basic Button Styles */
+.home {
+    height: 100vh;
+    /* Ensure the home container takes the full height of the viewport */
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    /* Blue color, you can change this */
+    color: #000000;
+    /* Text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    /* Darker shade of the button color */
+}
+
+/* Button with Margin */
+.button-with-margin {
+    margin-right: 10px;
+    /* Adjust margin as needed */
+}
+
+/* Button with Padding */
+.button-with-padding {
+    padding: 12px 24px;
+    /* Adjust padding as needed */
+}
+
+/* Secondary Button */
+.secondary-button {
+    background-color: #6c757d;
+    /* Gray color, you can change this */
+}
+
+.secondary-button:hover {
+    background-color: #5a6268;
+    /* Darker shade of the button color */
+}
+
+/* Transparent Button */
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid #007bff;
+    /* Blue border, you can change this */
+    color: #007bff;
+    /* Text color */
+}
+
+.transparent-button:hover {
+    background-color: #007bff;
+    /* Blue background on hover */
+    color: #fff;
+    /* Text color on hover */
+}
